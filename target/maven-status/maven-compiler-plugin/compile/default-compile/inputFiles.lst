@@ -1,0 +1,9 @@
+/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/controller/MemberController.java
+/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/data/MemberListProducer.java
+/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/data/MemberRepository.java
+/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/model/Member.java
+/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/rest/JaxRsActivator.java
+/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/rest/MemberResourceRESTService.java
+/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/service/MemberRegistration.java
+/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/util/KitchensinkMessages.java
+/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/util/Resources.java

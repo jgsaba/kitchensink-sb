@@ -1,0 +1,327 @@
+2026-11-01 11:55:43,585 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.6.Final-redhat-00001
+2026-11-01 11:55:44,390 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.5.Final-redhat-00001
+2026-11-01 11:55:44,407 INFO  [org.jboss.threads] (main) JBoss Threads version 2.5.0.redhat-00001
+2026-11-01 11:55:44,574 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0049: JBoss EAP 8.1 Update 9.0 (WildFly Core 27.1.20.Final-redhat-00001) starting
+2026-11-01 11:55:44,575 DEBUG [org.jboss.as.config] (MSC service thread 1-3) Configured system properties:
+	[Standalone] = 
+	file.encoding = UTF-8
+	file.separator = /
+	java.awt.headless = true
+	java.class.path = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/jboss-modules.jar
+	java.class.version = 61.0
+	java.home = /usr/lib/jvm/java-17-openjdk-amd64
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.20.1+1-1-24.04-Ubuntu
+	java.security.manager = allow
+	java.specification.maintenance.version = 1
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Ubuntu
+	java.vendor.url = https://ubuntu.com/
+	java.vendor.url.bug = https://bugs.launchpad.net/ubuntu/+source/openjdk-17
+	java.version = 17.0.20.1
+	java.version.date = 2026-08-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Ubuntu
+	java.vm.version = 17.0.20.1+1-1-24.04-Ubuntu
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server
+	jboss.host.name = desktop-p1mecrv
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-p1mecrv
+	jboss.qualified.host.name = desktop-p1mecrv.localdomain
+	jboss.server.base.dir = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone
+	jboss.server.config.dir = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/configuration
+	jboss.server.data.dir = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/data
+	jboss.server.log.dir = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/log
+	jboss.server.name = desktop-p1mecrv
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/configuration/logging.properties
+	module.path = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/modules
+	native.encoding = UTF-8
+	org.jboss.boot.log.file = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Linux
+	os.version = 6.6.87.2-microsoft-standard-WSL2
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /usr/lib/jvm/java-17-openjdk-amd64/lib
+	sun.cpu.endian = little
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/jboss-modules.jar -mp /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/modules org.jboss.as.standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.stderr.encoding = UTF-8
+	sun.stdout.encoding = UTF-8
+	user.dir = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink
+	user.home = /home/jsaba
+	user.language = en
+	user.name = jsaba
+	user.timezone = America/Sao_Paulo
+2026-11-01 11:55:44,575 DEBUG [org.jboss.as.config] (MSC service thread 1-3) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-modules=java.se --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-modules=java.se -Djava.security.manager=allow -Djboss.home.dir=/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server -Djboss.server.base.dir=/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone -Djboss.server.log.dir=/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/log -Djboss.server.config.dir=/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/configuration -Dorg.jboss.boot.log.file=/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/log/server.log -Dlogging.configuration=file:/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/configuration/logging.properties 
+2026-11-01 11:55:45,589 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 2.6.12.Final-redhat-00002
+2026-11-01 11:55:46,049 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0001: Content added at location /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/data/content/d0/13958188f3f2c709233cd529fe3312c02e196f/content
+2026-11-01 11:55:46,087 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2026-11-01 11:55:46,098 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.8.16.Final-redhat-00001
+2026-11-01 11:55:46,107 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.8.16.Final-redhat-00001
+2026-11-01 11:55:46,143 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 42) WFLYHEALTH0001: Activating Base Health Subsystem
+2026-11-01 11:55:46,149 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 43) WFLYCLINF0001: Activating Infinispan subsystem.
+2026-11-01 11:55:46,154 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 57) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2026-11-01 11:55:46,159 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 45) WFLYRS0016: RESTEasy version 6.2.19.Final-redhat-00002
+2026-11-01 11:55:46,160 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2026-11-01 11:55:46,161 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.31.SP2-redhat-00001
+2026-11-01 11:55:46,161 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 34) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2026-11-01 11:55:46,172 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 49) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2026-11-01 11:55:46,177 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 51) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2026-11-01 11:55:46,182 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 44) WFLYIO001: Worker 'default' has auto-configured to 24 IO threads with 192 max task threads based on your 12 available processors
+2026-11-01 11:55:46,185 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "kitchensink.war" (runtime-name: "kitchensink.war")
+2026-11-01 11:55:46,190 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.22.Final-redhat-00001)
+2026-11-01 11:55:46,212 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2026-11-01 11:55:46,222 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.3.26.SP3-redhat-00001 starting
+2026-11-01 11:55:46,226 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2026-11-01 11:55:46,228 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 58) WFLYUT0112: The value 'require-host-http11' attribute in the '/subsystem=undertow/server=default-server/http-listener=default' resource is 'false', which will be ignored. The server now always enforces the RFC 9112 requirement that HTTP/1.1 request messages include a Host header.
+2026-11-01 11:55:46,268 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY00023: KeyStore file '/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/configuration/application.keystore' does not exist. Used blank.
+2026-11-01 11:55:46,295 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY01084: KeyStore /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/configuration/application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2026-11-01 11:55:46,314 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2026-11-01 11:55:46,317 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) Queuing requests.
+2026-11-01 11:55:46,318 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2026-11-01 11:55:46,345 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 192 (per class), which is derived from thread worker pool sizing.
+2026-11-01 11:55:46,345 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 48 (per class), which is derived from the number of CPUs on this host.
+2026-11-01 11:55:46,370 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2026-11-01 11:55:46,481 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2026-11-01 11:55:46,503 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/deployments
+2026-11-01 11:55:46,994 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for primary
+2026-11-01 11:55:47,012 WARN  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2026-11-01 11:55:47,111 INFO  [org.jipijapa] (MSC service thread 1-3) JIPIORMV6020260: Second level cache enabled for kitchensink.war#primary
+2026-11-01 11:55:47,248 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment kitchensink.war
+2026-11-01 11:55:47,272 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/KitchensinkQuickstartDS]
+2026-11-01 11:55:47,394 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 8.0.2.Final-redhat-00001
+2026-11-01 11:55:47,615 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'deployment "kitchensink.war"' are as follows:
+
+	java:global/kitchensink/MemberRegistration!org.jboss.as.quickstarts.kitchensink.service.MemberRegistration
+	java:app/kitchensink/MemberRegistration!org.jboss.as.quickstarts.kitchensink.service.MemberRegistration
+	java:module/MemberRegistration!org.jboss.as.quickstarts.kitchensink.service.MemberRegistration
+	java:global/kitchensink/MemberRegistration
+	java:app/kitchensink/MemberRegistration
+	java:module/MemberRegistration
+
+2026-11-01 11:55:47,776 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 60) ISPN000556: Starting user marshaller 'org.wildfly.clustering.cache.infinispan.marshalling.UserMarshaller'
+2026-11-01 11:55:47,779 INFO  [org.jipijapa] (MSC service thread 1-3) JIPIORMV6020260: Second level cache enabled for kitchensink.war#primary
+2026-11-01 11:55:47,888 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 5.1.6 (redhat)
+2026-11-01 11:55:48,176 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) Started hibernate cache container
+2026-11-01 11:55:48,182 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'kitchensink.war#primary'
+2026-11-01 11:55:48,211 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 60) HHH000204: Processing PersistenceUnitInfo [name: primary]
+2026-11-01 11:55:48,301 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 60) HHH000412: Hibernate ORM core version 6.6.56.Final-redhat-00001
+2026-11-01 11:55:48,631 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 60) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@7f29e660']
+	Database driver: undefined/unknown
+	Database version: 2.2.9
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-01 11:55:48,637 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 60) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-01 11:55:48,759 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 60) Envers integration enabled? : true
+2026-11-01 11:55:49,011 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'kitchensink.war#primary'
+2026-11-01 11:55:50,643 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 61) Initializing Mojarra 4.0.22.redhat-00001 for context '/kitchensink'
+2026-11-01 11:55:51,746 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class org.jboss.as.quickstarts.kitchensink.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2026-11-01 11:55:51,795 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: '/kitchensink' for server 'default-server'
+2026-11-01 11:55:51,857 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 35) WFLYSRV0010: Deployed "kitchensink.war" (runtime-name : "kitchensink.war")
+2026-11-01 11:55:51,892 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2026-11-01 11:55:51,899 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2026-11-01 11:55:51,900 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+2026-11-01 11:55:51,904 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 8.1 Update 9.0 (WildFly Core 27.1.20.Final-redhat-00001) started in 9185ms - Started 415 of 546 services (253 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2026-11-01 11:57:47,759 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0272: Suspending server
+2026-11-01 11:57:47,762 INFO  [org.jboss.as.ejb3] (management-handler-thread - 1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2026-11-01 11:57:47,765 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2026-11-01 11:57:47,775 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0022: Unregistered web context: '/kitchensink' from server 'default-server'
+2026-11-01 11:57:47,782 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2026-11-01 11:57:47,786 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2026-11-01 11:57:47,787 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2026-11-01 11:57:47,788 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 2.3.26.SP3-redhat-00001 stopping
+2026-11-01 11:57:47,788 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 67) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'kitchensink.war#primary'
+2026-11-01 11:57:47,796 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 67) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'kitchensink.war#primary'
+2026-11-01 11:57:47,797 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/KitchensinkQuickstartDS]
+2026-11-01 11:57:47,799 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2026-11-01 11:57:47,804 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 67) Stopped hibernate cache container
+2026-11-01 11:57:47,807 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment kitchensink.war (runtime-name: kitchensink.war) in 36ms
+2026-11-01 11:57:47,811 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: JBoss EAP 8.1 Update 9.0 (WildFly Core 27.1.20.Final-redhat-00001) stopped in 40ms
+2026-11-01 11:58:02,024 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.6.Final-redhat-00001
+2026-11-01 11:58:02,282 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.5.Final-redhat-00001
+2026-11-01 11:58:02,288 INFO  [org.jboss.threads] (main) JBoss Threads version 2.5.0.redhat-00001
+2026-11-01 11:58:02,351 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: JBoss EAP 8.1 Update 9.0 (WildFly Core 27.1.20.Final-redhat-00001) starting
+2026-11-01 11:58:02,353 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	file.encoding = UTF-8
+	file.separator = /
+	java.awt.headless = true
+	java.class.path = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/jboss-modules.jar
+	java.class.version = 61.0
+	java.home = /usr/lib/jvm/java-17-openjdk-amd64
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.20.1+1-1-24.04-Ubuntu
+	java.security.manager = allow
+	java.specification.maintenance.version = 1
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Ubuntu
+	java.vendor.url = https://ubuntu.com/
+	java.vendor.url.bug = https://bugs.launchpad.net/ubuntu/+source/openjdk-17
+	java.version = 17.0.20.1
+	java.version.date = 2026-08-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Ubuntu
+	java.vm.version = 17.0.20.1+1-1-24.04-Ubuntu
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server
+	jboss.host.name = desktop-p1mecrv
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-p1mecrv
+	jboss.qualified.host.name = desktop-p1mecrv.localdomain
+	jboss.server.base.dir = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone
+	jboss.server.config.dir = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/configuration
+	jboss.server.data.dir = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/data
+	jboss.server.log.dir = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/log
+	jboss.server.name = desktop-p1mecrv
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/configuration/logging.properties
+	module.path = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/modules
+	native.encoding = UTF-8
+	org.jboss.boot.log.file = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Linux
+	os.version = 6.6.87.2-microsoft-standard-WSL2
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /usr/lib/jvm/java-17-openjdk-amd64/lib
+	sun.cpu.endian = little
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/jboss-modules.jar -mp /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/modules org.jboss.as.standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.stderr.encoding = UTF-8
+	sun.stdout.encoding = UTF-8
+	user.dir = /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink
+	user.home = /home/jsaba
+	user.language = en
+	user.name = jsaba
+	user.timezone = America/Sao_Paulo
+2026-11-01 11:58:02,353 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-modules=java.se --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-modules=java.se -Djava.security.manager=allow -Djboss.home.dir=/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server -Djboss.server.base.dir=/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone -Djboss.server.log.dir=/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/log -Djboss.server.config.dir=/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/configuration -Dorg.jboss.boot.log.file=/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/log/server.log -Dlogging.configuration=file:/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/configuration/logging.properties 
+2026-11-01 11:58:03,009 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 2.6.12.Final-redhat-00002
+2026-11-01 11:58:03,401 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2026-11-01 11:58:03,412 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.8.16.Final-redhat-00001
+2026-11-01 11:58:03,418 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.8.16.Final-redhat-00001
+2026-11-01 11:58:03,451 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 45) WFLYRS0016: RESTEasy version 6.2.19.Final-redhat-00002
+2026-11-01 11:58:03,452 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 34) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2026-11-01 11:58:03,453 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 43) WFLYCLINF0001: Activating Infinispan subsystem.
+2026-11-01 11:58:03,455 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 42) WFLYHEALTH0001: Activating Base Health Subsystem
+2026-11-01 11:58:03,455 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2026-11-01 11:58:03,457 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 57) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2026-11-01 11:58:03,458 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.31.SP2-redhat-00001
+2026-11-01 11:58:03,469 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 44) WFLYIO001: Worker 'default' has auto-configured to 24 IO threads with 192 max task threads based on your 12 available processors
+2026-11-01 11:58:03,471 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 49) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2026-11-01 11:58:03,474 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.22.Final-redhat-00001)
+2026-11-01 11:58:03,478 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 51) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2026-11-01 11:58:03,482 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "kitchensink.war" (runtime-name: "kitchensink.war")
+2026-11-01 11:58:03,503 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2026-11-01 11:58:03,503 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 2.3.26.SP3-redhat-00001 starting
+2026-11-01 11:58:03,505 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2026-11-01 11:58:03,513 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 58) WFLYUT0112: The value 'require-host-http11' attribute in the '/subsystem=undertow/server=default-server/http-listener=default' resource is 'false', which will be ignored. The server now always enforces the RFC 9112 requirement that HTTP/1.1 request messages include a Host header.
+2026-11-01 11:58:03,561 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-6) WFLYELY00023: KeyStore file '/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/configuration/application.keystore' does not exist. Used blank.
+2026-11-01 11:58:03,574 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-7) WFLYELY01084: KeyStore /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/configuration/application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2026-11-01 11:58:03,584 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2026-11-01 11:58:03,586 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) Queuing requests.
+2026-11-01 11:58:03,588 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2026-11-01 11:58:03,601 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 48 (per class), which is derived from the number of CPUs on this host.
+2026-11-01 11:58:03,601 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 192 (per class), which is derived from thread worker pool sizing.
+2026-11-01 11:58:03,631 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2026-11-01 11:58:03,711 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2026-11-01 11:58:03,727 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory /home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/target/server/standalone/deployments
+2026-11-01 11:58:04,107 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for primary
+2026-11-01 11:58:04,120 WARN  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2026-11-01 11:58:04,183 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for kitchensink.war#primary
+2026-11-01 11:58:04,314 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment kitchensink.war
+2026-11-01 11:58:04,316 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/KitchensinkQuickstartDS]
+2026-11-01 11:58:04,386 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 8.0.2.Final-redhat-00001
+2026-11-01 11:58:04,559 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'deployment "kitchensink.war"' are as follows:
+
+	java:global/kitchensink/MemberRegistration!org.jboss.as.quickstarts.kitchensink.service.MemberRegistration
+	java:app/kitchensink/MemberRegistration!org.jboss.as.quickstarts.kitchensink.service.MemberRegistration
+	java:module/MemberRegistration!org.jboss.as.quickstarts.kitchensink.service.MemberRegistration
+	java:global/kitchensink/MemberRegistration
+	java:app/kitchensink/MemberRegistration
+	java:module/MemberRegistration
+
+2026-11-01 11:58:04,684 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 60) ISPN000556: Starting user marshaller 'org.wildfly.clustering.cache.infinispan.marshalling.UserMarshaller'
+2026-11-01 11:58:04,708 INFO  [org.jipijapa] (MSC service thread 1-3) JIPIORMV6020260: Second level cache enabled for kitchensink.war#primary
+2026-11-01 11:58:04,781 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 5.1.6 (redhat)
+2026-11-01 11:58:05,058 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) Started hibernate cache container
+2026-11-01 11:58:05,063 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'kitchensink.war#primary'
+2026-11-01 11:58:05,078 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 60) HHH000204: Processing PersistenceUnitInfo [name: primary]
+2026-11-01 11:58:05,126 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 60) HHH000412: Hibernate ORM core version 6.6.56.Final-redhat-00001
+2026-11-01 11:58:05,345 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 60) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@6cf997b3']
+	Database driver: undefined/unknown
+	Database version: 2.2.9
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-01 11:58:05,352 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 60) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-01 11:58:05,403 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 60) Envers integration enabled? : true
+2026-11-01 11:58:05,545 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'kitchensink.war#primary'
+2026-11-01 11:58:06,737 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 61) Initializing Mojarra 4.0.22.redhat-00001 for context '/kitchensink'
+2026-11-01 11:58:07,513 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class org.jboss.as.quickstarts.kitchensink.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2026-11-01 11:58:07,548 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: '/kitchensink' for server 'default-server'
+2026-11-01 11:58:07,595 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 35) WFLYSRV0010: Deployed "kitchensink.war" (runtime-name : "kitchensink.war")
+2026-11-01 11:58:07,642 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2026-11-01 11:58:07,650 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2026-11-01 11:58:07,650 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+2026-11-01 11:58:07,655 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 8.1 Update 9.0 (WildFly Core 27.1.20.Final-redhat-00001) started in 5860ms - Started 415 of 546 services (253 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2026-11-01 11:58:16,585 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0272: Suspending server
+2026-11-01 11:58:16,588 INFO  [org.jboss.as.ejb3] (management-handler-thread - 1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2026-11-01 11:58:16,590 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2026-11-01 11:58:16,601 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 19) WFLYUT0022: Unregistered web context: '/kitchensink' from server 'default-server'
+2026-11-01 11:58:16,610 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2026-11-01 11:58:16,617 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2026-11-01 11:58:16,617 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2026-11-01 11:58:16,619 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 2.3.26.SP3-redhat-00001 stopping
+2026-11-01 11:58:16,625 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 15) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'kitchensink.war#primary'
+2026-11-01 11:58:16,636 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 15) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'kitchensink.war#primary'
+2026-11-01 11:58:16,638 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/KitchensinkQuickstartDS]
+2026-11-01 11:58:16,640 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2026-11-01 11:58:16,645 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 19) Stopped hibernate cache container
+2026-11-01 11:58:16,650 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment kitchensink.war (runtime-name: kitchensink.war) in 55ms
+2026-11-01 11:58:16,658 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: JBoss EAP 8.1 Update 9.0 (WildFly Core 27.1.20.Final-redhat-00001) stopped in 62ms

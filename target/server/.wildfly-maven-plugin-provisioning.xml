@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+
+<installation xmlns="urn:jboss:galleon:provisioning:3.0">
+    <feature-pack location="org.jboss.eap:wildfly-ee-galleon-pack:">
+        <default-configs inherit="false"/>
+        <packages inherit="false"/>
+    </feature-pack>
+    <config model="standalone" name="standalone.xml">
+        <layers>
+            <include name="cloud-server"/>
+            <include name="h2-driver"/>
+            <include name="ejb"/>
+            <include name="jsf"/>
+        </layers>
+    </config>
+    <options>
+        <option name="jboss-fork-embedded" value="true"/>
+        <option name="optional-packages" value="passive+"/>
+    </options>
+</installation>

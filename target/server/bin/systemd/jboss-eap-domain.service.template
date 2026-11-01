@@ -1,0 +1,24 @@
+[Unit]
+Description=JBoss EAP (domain mode)
+After=syslog.target network.target
+Before=httpd.service
+
+[Service]
+Environment=LAUNCH_JBOSS_IN_BACKGROUND=1
+Environment="JAVA_HOME=/usr/lib/jvm/jre"
+
+Environment="JBOSS_EAP_SH=@@@JBOSS_SYSTEMD_SERVER_HOME@@@/bin/domain.sh"
+Environment="JBOSS_EAP_SERVER_CONFIG=domain.xml"
+Environment="JBOSS_EAP_CONSOLE_LOG=@@@JBOSS_SYSTEMD_SERVER_HOME@@@/domain/log/systemd-console.log"
+Environment="JBOSS_EAP_HOST_CONFIG="
+Environment="JBOSS_EAP_BIND=0.0.0.0"
+EnvironmentFile=-/etc/sysconfig/jboss-eap-domain.conf
+
+User=@@@JBOSS_SYSTEMD_USER@@@
+Group=@@@JBOSS_SYSTEMD_GROUP@@@
+LimitNOFILE=102642
+ExecStart=/bin/sh -c "@@@JBOSS_SYSTEMD_SERVER_HOME@@@/bin/systemd/launch.sh"
+TimeoutSec=600
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/data/MemberListProducer.java">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/data/MemberRepository.java">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/service/MemberRegistration.java">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/rest/MemberResourceRESTService.java">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/rest/JaxRsActivator.java">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/model/Member.java">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/util/Resources.java">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/util/KitchensinkMessages.java">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/controller/MemberController.java">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/test/java/org/jboss/as/quickstarts/kitchensink/test/BasicRuntimeIT.java">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/test/java/org/jboss/as/quickstarts/kitchensink/test/MemberRegistrationIT.java">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/resources/ValidationMessages_es.properties">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/resources/ValidationMessages_fr.properties">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/resources/org/jboss/as/quickstarts/kitchensink/bundle/Resources_es.properties">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/resources/org/jboss/as/quickstarts/kitchensink/bundle/Resources_fr.properties">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/resources/org/jboss/as/quickstarts/kitchensink/bundle/Resources.properties">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/resources/org/jboss/as/quickstarts/kitchensink/util/KitchensinkMessages.i18n_fr.properties">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/resources/org/jboss/as/quickstarts/kitchensink/util/KitchensinkMessages.i18n_es.properties">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/resources/ValidationMessages.properties">
+</file>
+<file name="/home/jsaba/wspace/vibe/jboss-eap-quickstarts/kitchensink/src/main/resources/META-INF/persistence.xml">
+</file>
+</checkstyle>
